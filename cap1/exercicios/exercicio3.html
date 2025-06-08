@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios LPA cap1</title>
+</head>
+<body>
+
+
+    <script>
+
+        /* 
+        ler os precos de um produto, a opcao de pagamento : a vista - 10% de desconto e o valor em 3x sem desconto
+        */
+
+        const precoProduto = Number(prompt('Qual o preco do produto? : '));
+
+        const aVista = precoProduto - (precoProduto * .10);
+
+
+        const parcelado = precoProduto / 3;
+
+        alert(` Preco: R$ ${precoProduto.toFixed(2)} \n
+                A vista: R$ ${aVista.toFixed(2)} \n
+                em 3x: R$ ${parcelado.toFixed(2)}`)
+
+
+    </script>
+    
+</body>
+</html>
