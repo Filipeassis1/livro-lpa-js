@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    margin-inline: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .duracao{
+    margin-top: 17px;
+}
+
+#sbmt{
+    margin-top: 12px;
+} */
+
+.main{
+
+}
+
+
+.grid{
+    display: grid;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.filmName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.filmGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+
+input{
+    width: 220px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+#sbmt{
+    width: 100%;
+}
