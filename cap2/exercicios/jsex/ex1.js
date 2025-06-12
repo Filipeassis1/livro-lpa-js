@@ -17,11 +17,12 @@ frm.addEventListener("submit", (e)=>{
     const valor = frm.price.value;
 
     const preco = Math.floor( valor );
+    const total = preco*2;
     // const cents = preco % 100;
 
 
     resp1.innerText = ` Promocao de ${medicameto}`; 
-    resp2.innerText = `Leve 2 por apenas ${preco}`
+    resp2.innerText = `Leve 2 por apenas ${total}`
 
     e.preventDefault();
 
