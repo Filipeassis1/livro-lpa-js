@@ -17,7 +17,7 @@ frm.addEventListener("submit", (e)=>{
     const valor = frm.price.value;
 
     const preco = Math.floor( valor );
-    const total = preco*2;
+    const total = preco * 2;
     // const cents = preco % 100;
 
 
