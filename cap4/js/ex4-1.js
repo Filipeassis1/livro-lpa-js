@@ -1,7 +1,4 @@
 const form = document.querySelector('form');
-
-
-
 let respostaMedia = document.querySelector('h3');
 let repap = document.querySelector('h4');
 
@@ -20,8 +17,10 @@ form.addEventListener('submit', (e) =>{
 
     if (media <= 5){
         repap.innerHTML = `${nome} voce esta Reprovado!`
+        repap.style.color = 'red';
     } else {
         repap.innerHTML = `${nome} voce esta Aprovado!`
+        repap.style.color = 'blue';
     }
 
 })
